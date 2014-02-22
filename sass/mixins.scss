@@ -1,0 +1,30 @@
+@mixin inline-block() {
+display: -moz-inline-stack;
+display: inline-block;
+vertical-align: middle;
+*vertical-align: auto;
+zoom: 1;
+*display: inline;
+}
+
+@mixin box-shadow($a:0,$b:0,$c:0,$d:0,$e:000) {
+	-webkit-box-shadow: $a,$b,$c,$d,$e;
+	-moz-box-shadow: $a,$b,$c,$d,$e;
+	box-shadow: $a,$b,$c,$d,$e;
+}
+
+@mixin animation($name,$duration,$function,$delay,$iteration,$direction) {
+	-webkit-animation:$name $duration $function $delay $iteration $direction;
+	-moz-animation:$name $duration $function $delay $iteration $direction;
+	-o-animation:$name $duration $function $delay $iteration $direction;
+	animation:$name $duration $function $delay $iteration $direction;
+	animation:$name $duration $function $delay $iteration $direction;
+}
+
+@mixin transition($a,$b,$c,$d) {
+	-webkit-transition: $a $b $c $d;
+	   -moz-transition: $a $b $c $d;
+	    -ms-transition: $a $b $c $d;
+	     -o-transition: $a $b $c $d;
+	        transition: $a $b $c $d;
+}

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* =============================================
+
+	reset.css
+	(reset webbrowser default style)
+
+============================================= */
+
+body,h1,h2,h3,h4,h5,h6,
+p,ul,ol,dl,dt,dd,li,table,th,td,
+form,address,pre,
+strong,em,fieldset,button{
+	margin : 0 ;
+	padding : 0 ;
+	border : 0 ;
+	font-size : 100% ;
+	font-weight : normal ;
+	font-style : normal ;
+	text-decoration : none ;
+}
+
+ul,li{
+	margin : 0px ;
+	padding : 0px ;
+	list-style-type : none ;
+	line-height : 100% ;
+}
+
+a{
+	text-decoration : none ;
+}
+
+img{
+	border : none ;
+	vertical-align : top ;
+}
+
+hr{
+	display : none ;
+	clear : both ;
+}
+
+button{
+	/*background : #fff !important ;*/
+	background:transparent;
+	border:0;
+}
+
+table{
+	border-collapse : collapse ;
+	border-spacing : 0 ;
+}
+caption,th{
+	text-align : left ;
+}
